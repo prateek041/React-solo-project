@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #23252C;
+    color: white;
+}
+
+.page {
+    margin: 4rem 12rem;
+    background-color: #1A1B21;
+    border-radius: 2%;
+    max-width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 5rem; */
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image {
+    background-color: #FECD06;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    /* max-width: 0%; */
+}
+
+.img {
+    max-width: 200px;
+    border-radius: 50%;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.name {
+    font-weight: 600;
+    padding: 0.2rem 1rem;
+}
+
+.job {
+    padding: 2px 1rem;
+    color: #FECD06;
+    font-weight: 400;
+}
+
+.git-link {
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 0.2rem 1rem;
+}
+
+.contact {
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.button-1 {
+    border-radius: 5%;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin: 0 0.5rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background-color: white;
+    color: black;
+}
+
+.button-2 {
+    border-radius: 5%;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin: 0 0.5rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background-color: #5093E2;
+}
+
+
+/* body section */
