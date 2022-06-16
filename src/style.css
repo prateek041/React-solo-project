@@ -65,9 +65,13 @@ body {
 
 .git-link {
     font-size: 0.8rem;
+    display: flex;
+    align-items: center;
     font-weight: 300;
     padding: 0.2rem 1rem;
 }
+
+
 
 .contact {
     padding: 0.8rem;
@@ -98,4 +102,46 @@ body {
 }
 
 
+
 /* body section */
+
+
+.about {
+    margin: 1.5rem;
+    max-width: 90%;
+}
+
+.about-heading {
+    font-weight: 500;
+}
+
+.about-paragraph {
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin: auto;
+}
+
+.interest-heading {
+    font-weight: 500;
+}
+
+.interest-paragraph {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.interest {
+    margin: 1.5rem;
+    max-width: 90%;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    justify-content: space-evenly;
+    max-width: 50%;
+}

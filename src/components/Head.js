@@ -1,5 +1,6 @@
 import React from "react"
 import profile from "../images/profile.jpg"
+import { GoMarkGithub, GOMarkGithub } from "react-icons/go"
 
 export default function Head() {
     return (
@@ -16,6 +17,7 @@ export default function Head() {
                         Frontend developer
                     </h4>
                     <a className="git-link" url="https://github.com/prateek041">
+                        < GoMarkGithub className="git-icon" size="1.5em" />
                         Github
                     </a>
                 </div>
